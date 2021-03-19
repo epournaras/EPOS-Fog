@@ -1,0 +1,29 @@
+CONFIGURATION:
+dataset = Utilization
+output = /home/zeinab/Epos-Fog-Cloud1018/output/Utilization_1571350394
+==============
+numSimulations = 10
+dataset = Utilization
+numAgents = 1000
+numPlans = 20
+planDim = 2000
+numIterations = 40
+numChildren = 2
+--------------
+alpha = 0.0
+beta = 1.0
+global cost function = variance
+local cost function = score as a cost plan cost function.
+goal signal = null
+--------------
+permutationID = 0
+reorganizationSeed = 0
+permutationSeed = 0
+permutationFile = null
+reorganizationPeriod = 3
+memorizationOffset = 5
+reorganizationStrategy = NEVER
+convergenceTolerance = 0.5
+--------------
+loggingLevel = SEVERE
+Selected Loggers: PlanFrequencyLogger, ReorganizationLogger, LocalCostMultiObjectiveLogger, GlobalCostLogger, TerminationLogger, WeightsLogger, GlobalComplexCostLogger, SelectedPlanLogger, UnfairnessLogger, GlobalResponseVectorLogger

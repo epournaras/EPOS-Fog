@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="IoTTasks/src"/>
+	<classpathentry kind="lib" path="C:/Users/rooyesh/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar" sourcepath="C:/Users/rooyesh/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-math"/>
+			<attribute name="maven.version" value="2.2"/>
+			<attribute name="maven.scope" value="runtime"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/rooyesh/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar" sourcepath="C:/Users/rooyesh/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-math3"/>
+			<attribute name="maven.version" value="3.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="IoTTasks/build/classes"/>
+</classpath>

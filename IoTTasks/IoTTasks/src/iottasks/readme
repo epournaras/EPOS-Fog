@@ -1,0 +1,9 @@
+IoT task generation
+
+This project read a Google cluster trace and divides it into 5-min time intervals.
+Some characteristics are added to the tasks in this project such as deadline and the target edge node to which
+the task is propagated. 
+The tasks are going to be input to the networks with different settings. 
+We have 5 networks with the size set {200,400,600,800,1000}.
+Therefore, the tasks are assigned to different edge node's id based on the network size. 
+This id is produced according to two different distributions include Beta and Random. 
