@@ -18,8 +18,8 @@ To run the project:
 2. Gui (eclipse or netbeans): modify the path to the program directory and then run main class.
 3. One bash script is provided in the subdirectory "ClusterRunScript" to guide how to run the program in a computer cluster. 
  
- Please note that, in order to provide a comprehensive evaluation, the program simulates 4950 (5*3*5*2*3*11) configurations for time-sensitive IoT tasks 
- (in which deadline ranges from 2ms to 120s) as follows:
+ Please note that, in order to provide a comprehensive evaluation, the program simulates 4950 (5 * 3 * 5 * 2 * 3 * 11) configurations for time-sensitive IoT tasks 
+ (in which deadline ranges from 2 ms to 120 s) as follows:
  1. Networks with different sizes N, where N belongs to the set {200, 400, 600, 800, 1000} and various topologies as mentioned above. 
  2. Five profiles from Google cluster trace are selected as the input workload. Each profile is defined with four values that consist of: CPU load,
     memory load, storage load, and the number of requests per 5-min time period.
